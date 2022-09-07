@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@300;400;600;700&family=Roboto:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    /* padding: 0px 100px; */
+}
+:root{
+    --primary-color: #F58634;
+    --secondary-color: #757589;
+    --text-color: #252B42;
+}
+.nav-items ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.logo img{
+    width: 155px;
+}
+.header{
+    width: 90%;
+    margin: 0 auto;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+.nav-items ul li a{
+    font-size: 14px;
+    color: #252B42;
+}
+.nav-items ul li img{
+    width: 24px;
+    height: 24px;
+}
+.nav-items ul li button{
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: 500;
+    width: 80px;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    height: 35px;
+}
+
+.title{
+    width: 650px;
+    font-size: 55px;
+    color: var(--text-color);
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: 160px;
+    margin-bottom: 15px;
+}
+.better{
+    font-weight: normal;
+}
+.hero-text > p{
+    width: 650px;
+    color: var(--text-color);
+    font-size: 20px;
+    margin-bottom: 60px;
+}
+.input-area{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.input-area input{
+    width: 491px;
+    height: 60px;
+    background: #FFFFFF;
+    border: 1px solid #ECECEC;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    padding-left: 50px;
+}
+.input-area img{
+    width: 18px;
+    height: 18px;
+    position: absolute;
+    left: 20px;
+}
+.input-area input::placeholder{
+    color: var(--secondary-color);
+    font-size: 14px;
+}
+.input-area button{
+    background: #F58634;
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: -110px;
+    cursor: pointer;
+}
+input:focus{
+    outline: none;
+}
