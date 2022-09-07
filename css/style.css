@@ -31,10 +31,17 @@ nav{
     width: 90%;
     margin: 0 auto;
 }
+header{
+    position: relative;
+}
 .container{
     width: 80%;
     margin: 0 auto;
     /* background-color: red; */
+}
+.goal{
+    height: 100px;
+    /* background-color: green; */
 }
 .nav-items ul li a{
     font-size: 14px;
@@ -124,6 +131,7 @@ input:focus{
 .hero-section{
     display: flex;
     padding-bottom: 200px;
+    /* position: relative; */
 }
 
 .image-section img:nth-child(2){
@@ -137,4 +145,34 @@ input:focus{
     bottom: -95px;
     right: 300px
 
+}
+.goals{
+    display: flex;
+    justify-content: space-between;
+}
+.goal{
+    background: #FFFFFF;
+    border: 1px solid #EBEBEB;
+    border-radius: 16px;
+    width: 150px;
+    height: 165px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-self: center; */
+}
+/* .goal img, p{
+    margin: 0 auto !important;
+} */
+.goal p{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text-color);
+}
+.vector-img{
+    position: absolute;
+    bottom: -50px;
+    z-index: -1;
 }
