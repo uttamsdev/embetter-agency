@@ -185,7 +185,7 @@ input:focus{
 
 /* // about section  */
 .about-section{
-    margin-top: 150px;
+    margin-top: 200px;
     display: flex;
     position: relative;
     /* justify-content: space-between !important; */
@@ -252,14 +252,89 @@ input:focus{
 .common-div{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 50px;
 }
 .common-div h1{
     font-size: 30px;
     color: var(--text-color);
     font-weight: 600;
+    /* margin-bottom: 50px; */
 }
 .common-area{
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+/* // upcomming sessions  */
+.upcomming-sessions{
+    margin-top: 50px;
+}
+.instructors{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+.instructor{
+    background: #FFFFFF;
+    border: 1px solid #ECECEC;
+    border-radius: 10px;
+    width: 330px;
+    height: 440px
+}
+.instructor > img{
+    width: 330px;
+    height: 200px;
+    border-radius: 10px 10px 0px 0px;
+}
+.instructor > h3{
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--text-color);
+    margin: 15px 0px;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+.box > p{
+    font-size: 16px;
+    color: var(--secondary-color);
+    font-weight: 600;
+}
+.box p:last-child{
+    color: var(--primary-color);
+}
+.wrapper{
+    padding: 0px 20px;
+}
+.eclips{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    font-size: 16px;
+    color: var(--secondary-color);
+}
+.hr{
+    height: 1px;
+    /* background: #ECECEC; */
+    width: 100%;
+    border: 1px solid #ECECEC;
+    margin-top: 30px;
+}
+.times{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+.time{
+    display: flex;
+    gap: 5px;
+}
+.time p{
+    font-size: 15px;
+    color: var(--secondary-color);
 }
