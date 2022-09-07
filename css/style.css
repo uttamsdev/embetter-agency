@@ -433,6 +433,36 @@ input:focus{
     right: 11px;
     cursor: pointer;
 }
-.teacher > img{
+.footer-logo{
+    width: 160px;
+    margin-bottom: 10px;
+}
+.left-footer{
+    width: 300px;
+    font-size: 14px;
+    color: #000000;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.quick-links p,
+.footer-about p,
+.support p{
+color: var(--text-color);
+font-size: 15px;
+margin-bottom: 10px;
+}
+/* .teacher > img{
     filter: brightness(80%);
+} */
+.hr2{
+    height: 1px;
+    width: 100%;
+    border: 1px solid #ECECEC;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+.left-footer p{
+    margin-bottom: 10px;
 }
