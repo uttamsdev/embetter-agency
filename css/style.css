@@ -34,6 +34,7 @@ nav{
 .container{
     width: 80%;
     margin: 0 auto;
+    /* background-color: red; */
 }
 .nav-items ul li a{
     font-size: 14px;
@@ -66,6 +67,7 @@ nav{
 .better{
     font-weight: normal;
 }
+
 .hero-text > p{
     width: 650px;
     color: var(--text-color);
@@ -111,4 +113,28 @@ nav{
 }
 input:focus{
     outline: none;
+}
+
+
+.image-section{
+    margin-top: 30px;
+    margin: 0 auto;
+    position: relative;
+}
+.hero-section{
+    display: flex;
+    padding-bottom: 200px;
+}
+
+.image-section img:nth-child(2){
+    position: absolute;
+    bottom: -20px;
+    right: -80px;
+
+}
+.image-section img:nth-child(3){
+    position: absolute;
+    bottom: -95px;
+    right: 300px
+
 }
