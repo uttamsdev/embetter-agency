@@ -445,6 +445,10 @@ input:focus{
 .footer{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 30px;
+}
+.social-icon img{
+    margin-right: 10px;
 }
 .quick-links p,
 .footer-about p,
@@ -453,16 +457,32 @@ color: var(--text-color);
 font-size: 15px;
 margin-bottom: 10px;
 }
+.footer h4{
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--text-color);
+    margin-bottom: 10px;
+}
 /* .teacher > img{
     filter: brightness(80%);
 } */
+
 .hr2{
     height: 1px;
     width: 100%;
     border: 1px solid #ECECEC;
     margin-top: 100px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 .left-footer p{
     margin-bottom: 10px;
+}
+footer{
+    height: 60px;
+    background: #F8F8F8;
+    text-align: center;
+    color: #757589;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
