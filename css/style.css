@@ -433,6 +433,28 @@ input:focus{
     right: 11px;
     cursor: pointer;
 }
+.testimonial{
+    width: 510px;
+    height: 200px;
+    background: #F8F8F8;
+border-radius: 10px;
+padding: 20px;
+}
+.test-user{
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+.test-name{
+    color: var(--text-color);
+    font-size: 16px;
+    font-weight: 600;
+}
+.test-position{
+    color: var(--secondary-color);
+    font-size: 14px;
+    /* font-weight: 600; */
+}
 .footer-logo{
     width: 160px;
     margin-bottom: 10px;
@@ -486,3 +508,13 @@ footer{
     justify-content: center;
     align-items: center;
 }
+
+
+/* // swipper js */
+
+  .testimonials{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+  }
+
