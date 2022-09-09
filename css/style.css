@@ -65,8 +65,11 @@ header {
    border-radius: 4px;
    text-align: center;
    height: 35px;
+   cursor: pointer;
 }
-
+.nav-items img{
+   cursor: pointer;
+}
 .title {
    width: 650px;
    font-size: 55px;
@@ -101,11 +104,13 @@ header {
    border-radius: 10px;
    padding-left: 50px;
 }
-.input-area img {
+.input-area i {
    width: 18px;
    height: 18px;
+   font-size: 19px;
    position: absolute;
    left: 20px;
+   color: #b2b0b0;
 }
 .input-area input::placeholder {
    color: var(--secondary-color);
@@ -126,7 +131,9 @@ header {
 input:focus {
    outline: none;
 }
-
+.embetter-info{
+   margin-top: 10px;
+}
 .image-section {
    margin-top: 30px;
    margin: 0 auto;
@@ -478,7 +485,6 @@ input:focus {
 .quick-links p,
 .footer-about p,
 .support p {
-   color: #252b42 !important;
    font-size: 15px;
    margin-bottom: 10px;
 }
@@ -518,4 +524,13 @@ footer {
    display: flex;
    justify-content: center;
    gap: 100px;
+}
+.quick-links p a,
+.footer-about p a,
+.support p a{
+   color: #252b42;
+}
+
+.footer img{
+   cursor: pointer;
 }
